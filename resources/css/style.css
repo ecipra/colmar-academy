@@ -1,0 +1,42 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+  font-family: "Hind", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0 1.5rem;
+}
+
+.display-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.display-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+
+/* Header styles */
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-nav li {
+  display: inline;
+  margin-left: 1rem;
+}
