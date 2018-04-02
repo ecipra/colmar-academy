@@ -67,6 +67,7 @@ button {
 .desktop-nav li {
   display: inline;
   margin-left: 1rem;
+  color: #A3606D;
 }
 
 /* Banner styles */
@@ -75,7 +76,7 @@ button {
   display: flex;
   align-items: center;
   padding: 2rem 1.5rem;
-  background-color: rgba(167,206,227,0.4);
+  background-color: rgba(238,207,109,0.2);
 }
 
 .banner-image {
