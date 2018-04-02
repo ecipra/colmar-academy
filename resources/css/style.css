@@ -3,6 +3,7 @@
 html {
   font-size: 16px;
   font-family: "Hind", sans-serif;
+  color: #313638;
 }
 
 header {
@@ -12,14 +13,29 @@ header {
   padding: 0 1.5rem;
 }
 
-.display-bold {
+h1, h2 {
   font-family: "Ubuntu", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
   font-weight: 700;
 }
 
-.display-light {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background-color: #A3606D;
+  border: none;
 }
 
 /* Header styles */
@@ -31,6 +47,18 @@ header {
   text-transform: uppercase;
 }
 
+.logo-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #A3606D;
+}
+
+.logo-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #7c7c7c;
+}
+
 .desktop-nav {
   display: flex;
   align-items: center;
@@ -39,4 +67,26 @@ header {
 .desktop-nav li {
   display: inline;
   margin-left: 1rem;
+}
+
+/* Banner styles */
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  background-color: rgba(167,206,227,0.4);
+}
+
+.banner-image {
+  max-width: 60%;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+.banner-content {
+  max-width: 30%;
+  padding-left: 2rem;
 }
