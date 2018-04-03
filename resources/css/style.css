@@ -6,6 +6,11 @@ html {
   color: #666;
 }
 
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +27,11 @@ h1, h2 {
 
 h1 {
   font-size: 2rem;
+}
+
+.courses h1,
+.thesis-exhibit h1 {
+  text-align: center;
 }
 
 h2 {
@@ -159,12 +169,15 @@ p {
 
 /* Course styles */
 
+.courses {
+  background-color: rgba(238,207,109,0.2);
+  padding: 2rem 4.5rem;
+}
+
 .course-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 2rem 4.5rem;
-  background-color: rgba(238,207,109,0.2);
 }
 
 .course {
@@ -184,4 +197,25 @@ p {
 
 .course-label {
   text-transform: uppercase;
+}
+
+/* Thesis styles */
+
+.thesis-exhibit {
+  padding: 2rem 0;
+}
+
+.thesis-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thesis-callout {
+  max-width: 55%;
+  padding: .5rem 2rem;
+}
+
+.thesis-callout video {
+  width: 100%;
+  height: auto;
 }
