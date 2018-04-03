@@ -3,7 +3,7 @@
 html {
   font-size: 16px;
   font-family: "Hind", sans-serif;
-  color: #313638;
+  color: #666;
 }
 
 header {
@@ -16,11 +16,12 @@ header {
 h1, h2 {
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 1.5rem;
+  color: #313638;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 700;
 }
 
 h2 {
@@ -61,7 +62,7 @@ p {
 .logo-light {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
-  color: #7c7c7c;
+  color: #666;
 }
 
 .desktop-nav {
@@ -88,7 +89,7 @@ p {
 
 .banner-image {
   max-width: 55%;
-  padding: 2rem 1.5rem;
+  padding: 2rem;
 }
 
 .banner img {
@@ -101,6 +102,11 @@ p {
   padding-left: 1rem;
 }
 
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
 /* Info styles */
 
 .info {
@@ -110,7 +116,7 @@ p {
 
 .info-callout {
   max-width: 55%;
-  padding: 2rem 1.5rem;
+  padding: 2rem;
 }
 
 .info-callout img {
@@ -149,4 +155,33 @@ p {
 
 .info-text a {
   color: #A3606D;
+}
+
+/* Course styles */
+
+.course-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 4.5rem;
+  background-color: rgba(238,207,109,0.2);
+}
+
+.course {
+  background-color: white;
+  max-width: 28%;
+  margin: 1rem;
+}
+
+.course-image img {
+  width: 100%;
+  height: auto;
+}
+
+.course-text {
+  padding: 1.5rem;
+}
+
+.course-label {
+  text-transform: uppercase;
 }
