@@ -55,6 +55,11 @@ button:hover {
   background-color: #24464B
 }
 
+button:focus {
+  outline: dotted #24464B 1px;
+  background-color: #24464B
+}
+
 p {
   line-height: 1.3;
   margin-bottom: .5rem;
@@ -65,6 +70,11 @@ a {
 }
 
 a:hover {
+  color: #24464B
+}
+
+a:focus {
+  outline: dotted #24464B 1px;
   color: #24464B
 }
 
@@ -81,6 +91,11 @@ footer {
 
 footer a,
 footer a:hover {
+  color: inherit;
+}
+
+footer a:focus {
+  outline: dotted white 1px;
   color: inherit;
 }
 
@@ -125,6 +140,11 @@ footer a:hover {
 .thesis-item {
   display: flex;
   padding: 1rem;
+}
+
+.info-item:last-child,
+.thesis-item:first-child {
+  background-color: rgba(55,63,81,0.15);
 }
 
 .desktop-nav a,
@@ -217,11 +237,12 @@ a.logo {
 }
 
 .course-text {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .course-label {
   text-transform: uppercase;
+  color: #373F51;
 }
 
 /* Thesis styles */
