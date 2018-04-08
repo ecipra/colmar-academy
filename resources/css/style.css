@@ -140,11 +140,12 @@ footer a:focus {
 .thesis-item {
   display: flex;
   padding: 1rem;
+  border-top: 1px solid rgba(169,188,208,0.5);
 }
 
 .info-item:last-child,
-.thesis-item:first-child {
-  background-color: rgba(55,63,81,0.15);
+.thesis-item:last-child {
+  border-bottom: 1px solid rgba(169,188,208,0.5);
 }
 
 .desktop-nav a,
