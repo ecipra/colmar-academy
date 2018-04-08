@@ -64,6 +64,49 @@ footer {
   font-weight: 300;
 }
 
+.banner img,
+.info-image img,
+.course-image img,
+.thesis-image img {
+  width: 100%;
+  height: auto;
+}
+
+.info-callout img,
+.thesis-callout video {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.banner-image,
+.info-callout {
+  max-width: 55%;
+  padding: 2rem;
+}
+
+.info-image,
+.thesis-image {
+  max-width: 35%;
+}
+
+.info-text,
+.thesis-image-text {
+  margin-left: 1rem;
+}
+
+.info,
+.thesis-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item,
+.thesis-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
 /* Header styles */
 
 .logo {
@@ -107,16 +150,6 @@ footer {
   background-color: rgba(238,207,109,0.2);
 }
 
-.banner-image {
-  max-width: 55%;
-  padding: 2rem;
-}
-
-.banner img {
-  width: 100%;
-  height: auto;
-}
-
 .banner-content {
   max-width: 25%;
   padding-left: 1rem;
@@ -129,22 +162,6 @@ footer {
 
 /* Info styles */
 
-.info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.info-callout {
-  max-width: 55%;
-  padding: 2rem;
-}
-
-.info-callout img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 1.5rem;
-}
-
 .attribution {
   font-weight: 300;
   margin-top: 1rem;
@@ -152,24 +169,6 @@ footer {
 
 .info-list {
   padding: 2rem 1rem;
-}
-
-.info-item {
-  display: flex;
-  margin-bottom: 1rem;
-}
-
-.info-image {
-  max-width: 35%;
-}
-
-.info-image img {
-  width: 100%;
-  height: auto;
-}
-
-.info-text {
-  margin-left: 1rem;
 }
 
 .info-text a {
@@ -195,11 +194,6 @@ footer {
   margin: 1rem;
 }
 
-.course-image img {
-  width: 100%;
-  height: auto;
-}
-
 .course-text {
   padding: 1.5rem;
 }
@@ -218,42 +212,13 @@ footer {
   margin-bottom: 2rem;
 }
 
-.thesis-info {
-  display: flex;
-  justify-content: space-between;
-}
-
 .thesis-callout {
   max-width: 55%;
   padding: 0 2rem;
 }
 
-.thesis-callout video {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1.5rem;
-}
-
 .thesis-list {
   padding: 0 1rem;
-}
-
-.thesis-item {
-  display: flex;
-  margin-bottom: 1rem;
-}
-
-.thesis-image {
-  max-width: 35%;
-}
-
-.thesis-image img {
-  width: 100%;
-  height: auto;
-}
-
-.thesis-image-text {
-  margin-left: 1rem;
 }
 
 /* Footer styles */
