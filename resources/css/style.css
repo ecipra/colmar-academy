@@ -46,8 +46,13 @@ button {
   color: white;
   font-size: 0.8rem;
   text-transform: uppercase;
-  background-color: #A3606D;
+  background-color: #34666E;
   border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #24464B
 }
 
 p {
@@ -55,13 +60,28 @@ p {
   margin-bottom: .5rem;
 }
 
+a {
+  color: #34666E;
+}
+
+a:hover {
+  color: #24464B
+}
+
 footer {
   display: flex;
   justify-content: space-between;
+  background-color: #373F51;
+  color: white;
   padding: 1rem 2rem;
   border-top: 1px solid #dedede;
   font-size: .75rem;
   font-weight: 300;
+}
+
+footer a,
+footer a:hover {
+  color: inherit;
 }
 
 .banner img,
@@ -104,7 +124,12 @@ footer {
 .info-item,
 .thesis-item {
   display: flex;
-  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.desktop-nav a,
+footer a {
+  margin-left: 1rem;
 }
 
 /* Header styles */
@@ -116,10 +141,14 @@ footer {
   text-transform: uppercase;
 }
 
+a.logo {
+  text-decoration: none;
+}
+
 .logo-bold {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  color: #A3606D;
+  color: #34666E;
 }
 
 .logo-light {
@@ -137,17 +166,12 @@ footer {
   display: inline;
 }
 
-.desktop-nav a {
-  margin-left: 1rem;
-  color: #A3606D;
-}
-
 /* Banner styles */
 
 .banner {
   display: flex;
   align-items: center;
-  background-color: rgba(238,207,109,0.2);
+  background-color: rgba(169,188,208,0.5);
 }
 
 .banner-content {
@@ -165,20 +189,17 @@ footer {
 .attribution {
   font-weight: 300;
   margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .info-list {
-  padding: 2rem 1rem;
-}
-
-.info-text a {
-  color: #A3606D;
+  padding: 2rem 0;
 }
 
 /* Course styles */
 
 .courses {
-  background-color: rgba(238,207,109,0.2);
+  background-color: rgba(169,188,208,0.5);;
   padding: 2rem 4.5rem;
 }
 
@@ -190,8 +211,9 @@ footer {
 
 .course {
   background-color: white;
-  max-width: 28%;
-  margin: 1rem;
+  max-width: 30%;
+  margin: .75rem;
+  box-shadow: 1px 1px 2px 2px rgba(102,102,102,0.1);
 }
 
 .course-text {
@@ -215,15 +237,4 @@ footer {
 .thesis-callout {
   max-width: 55%;
   padding: 0 2rem;
-}
-
-.thesis-list {
-  padding: 0 1rem;
-}
-
-/* Footer styles */
-
-footer a {
-  margin-left: 1rem;
-  color: #A3606D;
 }
