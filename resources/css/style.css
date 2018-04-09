@@ -96,7 +96,6 @@ footer a:focus {
 
 .banner img,
 .info-image-desktop img,
-.course-image img,
 .thesis-image img {
   width: 100%;
   height: auto;
@@ -224,8 +223,9 @@ a.logo {
 /* Course styles */
 
 .courses {
-  background-color: rgba(169,188,208,0.5);;
-  padding: 2rem 4.5rem;
+  background-color: rgba(169,188,208,0.5);
+  padding: 2rem 3rem;
+  width: inherit;
 }
 
 .course-list {
@@ -239,6 +239,73 @@ a.logo {
   max-width: 30%;
   margin: .75rem;
   box-shadow: 1px 1px 2px 2px rgba(102,102,102,0.1);
+}
+
+.course-image {
+  height: 6rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+#software {
+  background:
+    linear-gradient(
+      rgba(55,63,81,0.7),
+      rgba(55,63,81,0.7)),
+    url("../images/course-software.jpg") no-repeat;
+  background-size: cover;
+}
+
+#art {
+  background:
+    linear-gradient(
+      rgba(55,63,81,0.7),
+      rgba(55,63,81,0.7)),
+    url("../images/course-computer-art.jpg") no-repeat;
+  background-size: cover;
+}
+
+#design {
+  background:
+    linear-gradient(
+      rgba(55,63,81,0.7),
+      rgba(55,63,81,0.7)),
+    url("../images/course-design.jpg") no-repeat;
+  background-size: cover;
+}
+
+#data {
+  background:
+    linear-gradient(
+      rgba(55,63,81,0.7),
+      rgba(55,63,81,0.7)),
+    url("../images/course-data.jpg") no-repeat;
+  background-size: cover;
+}
+
+#business {
+  background:
+    linear-gradient(
+      rgba(55,63,81,0.7),
+      rgba(55,63,81,0.7)),
+    url("../images/course-business.jpg") no-repeat;
+  background-size: cover;
+}
+
+#marketing {
+  background:
+    linear-gradient(
+      rgba(55,63,81,0.7),
+      rgba(55,63,81,0.7)),
+    url("../images/course-marketing.jpg") no-repeat;
+  background-size: cover;
+}
+
+.course-image h2 {
+  margin-bottom: 0;
+  margin-left: 1.5rem;
+  color: white;
 }
 
 .course-text {
@@ -335,6 +402,38 @@ a.logo {
   .info-image-mobile img {
     width: 100%;
     height: auto;
+  }
+
+  .courses {
+    padding: 1rem;
+  }
+
+  .course-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course {
+    min-width: 100%;
+    margin: .5rem 0;
+    box-shadow: 0 0 0 0;
+  }
+
+  .course-image {
+    height: 5rem;
+  }
+
+  #software,
+  #art,
+  #design,
+  #data,
+  #business,
+  #marketing {
+    background-position: center;
+  }
+
+  .course-text {
+    display: none;
   }
 
 }
