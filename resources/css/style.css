@@ -339,11 +339,15 @@ a.logo {
     padding: 1rem 1.5rem .5rem 1.5rem;
   }
 
-  header span {
-    display: none;
-  }
-
-  .desktop-nav {
+  header span,
+  .desktop-nav,
+  .info-callout,
+  .info-image-desktop,
+  .course-text,
+  .thesis-list,
+  .thesis-callout h2,
+  .thesis-callout p,
+  .footer-links {
     display: none;
   }
 
@@ -362,14 +366,9 @@ a.logo {
     padding: 0;
   }
 
-
   .banner-content {
     max-width: 100%;
     padding: 2rem 1rem;
-  }
-
-  .info-callout {
-    display: none;
   }
 
   .info-list {
@@ -387,10 +386,6 @@ a.logo {
 
   .info-text h2 {
     margin-bottom: 1rem;
-  }
-
-  .info-image-desktop {
-    display: none;
   }
 
   .info-image-mobile {
@@ -432,8 +427,21 @@ a.logo {
     background-position: center;
   }
 
-  .course-text {
-    display: none;
+  .thesis-exhibit {
+    padding: 1rem 0;
+  }
+
+  .thesis-callout {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .thesis-callout video {
+    margin-bottom: .5rem;
+  }
+
+  footer {
+    padding: 1rem;
   }
 
 }
