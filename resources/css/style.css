@@ -17,13 +17,17 @@ header {
 
 h1, h2 {
   font-family: "Ubuntu", sans-serif;
-  margin-bottom: 1.5rem;
   color: #313638;
   font-weight: 700;
 }
 
 h1 {
   font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
 }
 
 .courses h1,
@@ -40,7 +44,7 @@ button {
   width: 100%;
   padding: 1rem;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   background-color: #34666E;
   border: none;
@@ -133,6 +137,7 @@ footer a:focus {
 .info-item,
 .thesis-item {
   display: flex;
+  align-items: center;
   padding: 1rem;
   border-top: 1px solid rgba(169,188,208,0.5);
 }
@@ -152,12 +157,13 @@ footer a {
 .logo {
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
 }
 
 a.logo {
   text-decoration: none;
+  margin-left: 0;
 }
 
 .logo-bold {
@@ -304,7 +310,7 @@ a.logo {
 
 .course-image h2 {
   margin-bottom: 0;
-  margin-left: 1.5rem;
+  margin: 0 1.5rem;
   color: white;
 }
 
